@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: service-security
-        image: registrybankaforo255.azurecr.io/security-img
+        image: acrdemoibk.azurecr.io/security-img
         ports:
         - containerPort: 8080
       imagePullSecrets:
