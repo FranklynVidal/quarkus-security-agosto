@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: service-security
-        image: acrdemoibk.azurecr.io/security-img
+        image: acrdevopsibk.azurecr.io/security-img
         ports:
         - containerPort: 8080
       imagePullSecrets:
